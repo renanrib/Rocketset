@@ -51,7 +51,7 @@ body{
   background-image: url(assets/toupeira6.svg)
 }
 .hole5{
-  animation: hole .7s 14s 5;
+  animation: hole .7s 14s;
   width: 221.81px;
   height: 168.11px;
   background-image: url(assets/toupeira6.svg)
