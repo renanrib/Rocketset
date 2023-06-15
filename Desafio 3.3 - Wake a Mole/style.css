@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 1440px;
+  height: 1024px;
+  display:grid;
+}
+.fundo {
+  position: relative;
+}
+.holes{
+  position: absolute;
+  left: 167px;
+  top: 224px;
+  width: 221.81px;
+  height: 168.11px;
+  display: grid;
+  row-gap: 54px;
+  column-gap: 54px;
+  grid-template-areas: 'A B C D'
+  'E F G H'
+  'I J K L' ;
+  background-image: url(assets/toupeira6.svg)
+}
+
+.hole1{
+  animation: hole .7s 3s;
+  width: 221.81px;
+  height: 168.11px;
+  background-image: url(assets/toupeira6.svg)
+}
+.hole2{
+  animation: hole .7s 8s;
+  width: 221.81px;
+  height: 168.11px;
+  background-image: url(assets/toupeira6.svg)
+}
+.hole3{
+  animation: hole .7s 4s;
+  width: 221.81px;
+  height: 168.11px;
+  background-image: url(assets/toupeira6.svg)
+}
+.hole4{
+  animation: hole .7s 09s;
+  width: 221.81px;
+  height: 168.11px;
+  background-image: url(assets/toupeira6.svg)
+}
+.hole5{
+  animation: hole .7s 14s 5;
+  width: 221.81px;
+  height: 168.11px;
+  background-image: url(assets/toupeira6.svg)
+}
+.hole6{
+  animation: hole .7s 13s;
+  width: 221.81px;
+  height: 168.11px;
+  background-image: url(assets/toupeira6.svg)
+}
+.hole7{
+  animation: hole .7s 10s;
+  width: 221.81px;
+  height: 168.11px;
+  background-image: url(assets/toupeira6.svg)
+}
+.hole8{
+  animation: hole .7s 7s;
+  width: 221.81px;
+  height: 168.11px;
+  background-image: url(assets/toupeira6.svg)
+}
+.hole9{
+  animation: hole .7s 5s;
+  width: 221.81px;
+  height: 168.11px;
+  background-image: url(assets/toupeira6.svg)
+}
+.hole10{
+  animation: hole .7s 11s;
+  width: 221.81px;
+  height: 168.11px;
+  background-image: url(assets/toupeira6.svg)
+}
+.hole11{
+  animation: hole .7s 6s ;
+  width: 221.81px;
+  height: 168.11px;
+  background-image: url(assets/toupeira6.svg)
+}
+.hole12{
+  animation: hole .7s 12s;
+  width: 221.81px;
+  height: 168.11px;
+  background-image: url(assets/toupeira6.svg)
+  
+}
+
+@keyframes hole {
+  0%{background-image: url(assets/toupeira1.svg);}
+  20%{background-image: url(assets/toupeira2.svg);}
+  40%{background-image: url(assets/toupeira3.svg);}
+  60%{background-image: url(assets/toupeira4.svg);}
+  80%{background-image: url(assets/toupeira5.svg);}
+  100%{background-image: url(assets/toupeira6.svg);}  
+}
